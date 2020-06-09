@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin:0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0 auto;
+    max-width:1100px;
+}
+p{
+    padding: 10px 0;
+}
+#capLogo{
+    padding: 20px 0 10px;
+    border-bottom: 1px solid rgba(165, 156, 156, 0.5);
+}
+.cap-header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.nav-item a{
+    color:#787676;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    color:#13abe5;
+}
+.nav-item{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+}
+aside {
+    width: 40%;
+    padding-left: 5px;
+    margin-left: 5px;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: 5px;
+}
+.cap-section{
+    padding-top:15px; 
+}
+.cap-main{
+    padding: 25px 0 20px;
+}
+.cap-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color:#787676;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid  rgba(165, 156, 156, 0.5);
+}
